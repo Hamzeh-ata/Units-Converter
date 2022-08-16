@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Units Converter</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+   <section class="sectionOne">
+    <div class="container-fluid h-100">
+        <div class="row h-100 justify-content-center">
+            <div class="col-lg-4 col-sm-12 col-md-12 align-self-center justify-content-center">
+                <div class="main">
+                <div class="sectionHeader">
+                    <h1>Units Converter</h1>
+                </div>
+                <div class="sectionOptions">
+                    <a href="#sectionTwo">Weight</a>
+                    <a href="#sectionThree">Time</a>
+                    <a href="#sectionFour">Distance</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section id="sectionTwo" class="sectionTwo">
+    <div class="container-fluid h-100">
+        <div class="row h-100 justify-content-center">
+            <div class="col-lg-5 col-sm-6 col-md-6 align-self-center justify-content-center">
+                <div class="main">
+                <div class="sectionHeader">
+                    <h1>Weight Converter</h1>
+                </div>
+                <div class="ConverterBorder">
+                    <div class="row justify-content-center">
+                     <div class="col-lg-4 col-sm-6 col-md-6">
+                        <div class="ConverterFrom">
+                            <h1>From</h1>
+                            <input id="fromWeightInput" class="formInput" type="number">
+                            <select class="formSelect" id="fromWeightSelect">
+                                <option></option>
+                                <option value="1">Kilograms</option>
+                                <option value="2">Grams</option>
+                                <option value="3">Milligrams</option>
+                                <option value="4">Micrograms</option>
+                                <option value="5">Pounds</option>
+                            </select>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-sm-6 col-md-6">
+                        <div class="ConverterTo">
+                            <h1>To</h1>
+                            <input id="toWeightInput" class="formInput" type="number">
+                            <select class="formSelect" id="toWeightSelect">
+                                <option></option>
+                                <option value="1">Kilograms</option>
+                                <option value="2">Grams</option>
+                                <option value="3">Milligrams</option>
+                                <option value="4">Micrograms</option>
+                                <option value="5">Pounds</option>
+                            </select>
+                        </div>
+                     </div>
+                    </div>
+         
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section id="sectionThree" class="sectionThree">
+    <div class="container-fluid h-100">
+        <div class="row h-100 justify-content-center">
+            <div class="col-lg-5 col-sm-6 col-md-6 align-self-center justify-content-center">
+                <div class="main">
+                <div class="sectionHeader">
+                    <h1>Time Converter</h1>
+                </div>
+                <div class="ConverterBorder">
+                    <div class="row justify-content-center">
+                     <div class="col-lg-4 col-sm-6 col-md-6">
+                        <div class="ConverterFrom">
+                            <h1>From</h1>
+                            <input id="fromTimeInput" class="formInput" type="number">
+                            <select class="formSelect" id="fromtimeSelect">
+                                <option value="1">Hour</option>
+                                <option value="2">Minute</option>
+                                <option value="3">Second</option>
+                                <option value="4">Day</option>
+                                <option value="5">Week</option>
+                                <option value="6">Month</option>
+                            </select>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-sm-6 col-md-6">
+                        <div class="ConverterTo">
+                            <h1>To</h1>
+                            <input id="toTimeInput" class="formInput" type="number">
+                            <select class="formSelect" id="TotimeSelect">
+                                <option value="1">Hour</option>
+                                <option value="2">Minute</option>
+                                <option value="3">Second</option>
+                                <option value="4">Day</option>
+                                <option value="5">Week</option>
+                                <option value="6">Month</option>
+                            </select>
+                        </div>
+                     </div>
+                    </div>
+               
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section id="sectionFour" class="sectionFour">
+    <div class="container-fluid h-100">
+        <div class="row h-100 justify-content-center">
+            <div class="col-lg-5 col-sm-6 col-md-6 align-self-center justify-content-center">
+                <div class="main">
+                <div class="sectionHeader">
+                    <h1>Distance Converter</h1>
+                </div>
+                <div class="ConverterBorder">
+                    <div class="row justify-content-center">
+                     <div class="col-lg-4 col-sm-6 col-md-6">
+                        <div class="ConverterFrom">
+                            <h1>From</h1>
+                            <input id="distanceFromInput" class="formInput" type="number">
+                            <select id="fromDistanceSelect" class="formSelect">
+                                <option value="1">Kilometers</option>
+                                <option value="2">Meters</option>
+                                <option value="3">Centimeters</option>
+                                <option value="4">Foot</option>
+                                <option value="5">Inches</option>
+                            </select>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-sm-6 col-md-6">
+                        <div class="ConverterTo">
+                            <h1>To</h1>
+                            <input id="toDistanceInput" class="formInput" type="number">
+                            <select id="toDistanceSelect" class="formSelect">
+                                <option value="1">Kilometers</option>
+                                <option value="2">Meters</option>
+                                <option value="3">Centimeters</option>
+                                <option value="4">Foot</option>
+                                <option value="5">Inches</option>
+                            </select>
+                        </div>
+                    </div>
+                   
+                     </div>
+                
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+    </body>
+    <script src="./index.js" ></script>
+</html>

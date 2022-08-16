@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+.sectionOne,.sectionThree{
+    background-color: #271A32;
+    height: 550px;
+    font-family: 'Neucha', cursive;
+}
+.sectionHeader h1{
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.sectionOptions{
+    display: flex;
+    justify-content: center;
+}
+.sectionOptions a{
+    background-color: #4F315C;
+    font-family: 'Neucha', cursive;
+    padding: 10px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: black !important;
+
+}
+a{
+    text-decoration: none !important;
+}
+.sectionTwo,.sectionFour{
+    background-color: #260C30;
+    height: 550px;
+    font-family: 'Neucha', cursive;
+}
+.ConverterBorder{
+    border: 1px solid #4F315C;
+    margin-top: 40px;
+    padding: 35px;
+}
+.ConverterFrom,.ConverterTo{
+    text-align: center;
+    color: rgb(165, 175, 175);
+    width: 100%;
+}
+.formInput{
+    background: #341F3F;
+border-radius: 6px;
+padding: 5px;
+margin: 1px;
+border: 1px solid transparent;
+color: whitesmoke;
+font-size: 15px;
+width: 100%;
+letter-spacing: 3px;
+}
+.formSelect{
+    background: #2c1437;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 1px;
+    border: 1px solid transparent;
+    color: whitesmoke;
+    font-size: 20px;
+    width: 100%;
+    letter-spacing: 3px;
+    margin-top: 8px;
+}
+.formInput:focus{
+    outline: none;
+    border: 1px solid #851BA0 ;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.ConvertResult{
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+   
+}
+.ConvertResult h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+.ConvertResultBackGround{
+    background-color: #260C30;
+    padding: 25px;
+    border-radius: 50%;
+}
+.ConvertResultBackGroundSEC1{
+    background-color: #271A32;
+    padding: 25px;
+    border-radius: 50%;
+}
